@@ -8,8 +8,8 @@ public class Main {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
 		cfg.title = "project-tuba";
 		cfg.useGL20 = false;
-		cfg.width = 480;
-		cfg.height = 320;
+		cfg.width = 400;
+		cfg.height = 400;
 		
 		new LwjglApplication(new ProjectTuba(), cfg);
 	}
